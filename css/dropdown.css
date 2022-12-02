@@ -1,0 +1,41 @@
+nav{
+    background-color: aliceblue;
+}
+.flex-container{
+    display: flex;
+}
+
+.left-menu{
+    flex: 20%;
+}
+.right-menu{
+    flex: 80%;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown .dropdown-list{
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    width: 160px;
+    left: 620px;
+}
+
+.dropdown:hover .dropdown-list{
+    display: block;
+}
+
